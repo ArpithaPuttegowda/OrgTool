@@ -1,0 +1,50 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "title": "CEO",
+      "name": "Jane Doe I",
+      "subordinates": [
+        {
+          "id": 2,
+          "title": "COO",
+          "name": "John Doe I",
+          "subordinates": [
+            {
+              "id": 3,
+              "title": "Director of Operations",
+              "name": "John Doe II",
+              "subordinates": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "CTO",
+          "name": "Jane Doe II",
+          "subordinates": [
+            {
+              "id": 5,
+              "title": "Software Engineering Manager",
+              "name": "Jane Doe III",
+              "subordinates": [
+                {
+                  "id": 6,
+                  "title": "Team lead",
+                  "name": "John Doe IV",
+                  "subordinates": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "title": "Quality Engineering Manager",
+              "name": "John Doe III",
+              "subordinates": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

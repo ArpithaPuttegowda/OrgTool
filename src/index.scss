@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: NexusSans, Arial, Helvetica, Lucida Sans Unicode,
+    Microsoft Sans Serif, Segoe UI Symbol, STIXGeneral, Cambria Math,
+    Arial Unicode MS, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #505050;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}

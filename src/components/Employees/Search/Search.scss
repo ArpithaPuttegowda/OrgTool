@@ -1,0 +1,11 @@
+.Search {
+  background-color: #eee;
+  min-height: 120px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  > div{
+    min-width: 500px;
+  }
+}
